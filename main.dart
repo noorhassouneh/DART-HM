@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
               backgroundImage: NetworkImage('https://tse4.mm.bing.net/th/id/OIP.q0IqGHJcAzBcQ-ygf_d5YAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'),
               
               ),
-              Text("Welcome Back!", style: TextStyle(fontSize: 30)),
+              Text("Welcome Back!", style: TextStyle(fontSize: 30,fontWeight: .bold)),
               Text('Sign in to continue', style: TextStyle(fontSize: 12)),
               SizedBox(height: 15),
 
