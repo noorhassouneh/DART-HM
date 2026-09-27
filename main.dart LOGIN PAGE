@@ -23,7 +23,9 @@ class MyApp extends StatelessWidget {
               backgroundImage: NetworkImage('https://tse4.mm.bing.net/th/id/OIP.q0IqGHJcAzBcQ-ygf_d5YAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'),
               
               ),
+              SizedBox(height:20),
               Text("Welcome Back!", style: TextStyle(fontSize: 30,fontWeight: .bold)),
+              SizedBox(height:5),
               Text('Sign in to continue', style: TextStyle(fontSize: 12)),
               SizedBox(height: 15),
 
@@ -118,9 +120,9 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
 
                   children:[
-                Text(" Don't have an account?   ", style : TextStyle (fontSize:15 )),
+                Text(" Don't have an account? ", style : TextStyle (fontSize:15 )),
                 SizedBox(height:50),
-                Text(' Sign up ', style: TextStyle(fontSize:10,color:Colors.blue)),
+                Text(' Sign up ', style: TextStyle(fontSize:12,color:Colors.blue)),
                   ]
                 ),
                 Row(  
